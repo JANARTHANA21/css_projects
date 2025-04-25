@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(pexels-photo-876467.webp);
+    background-size: cover;
+    background-position: center;
+   }
+.wrapper h1{
+       display: flex;
+       justify-content: center;
+       margin-bottom: 15px;
+       margin-top: 10px;
+       
+    
+}
+
+.wrapper{
+    background: transparent;
+    color: rgb(5, 5, 5);
+    width: 420px;
+    border-radius: 30px;
+    border: 2px solid rgb(255,255,255,.2);
+    backdrop-filter: blur(30px);
+    
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border-radius: 40px;
+    outline: none;
+    border: 2px solid rgba(11, 10, 10, 0.2);
+    padding: 15px;
+    margin-top: 30px;
+    margin: 0,10px,0;
+    
+    
+    
+}
+.input-box{
+    position: relative;
+    margin: 0,10px,0;
+    
+}
+i{
+    position: absolute;
+    right: 0;
+    top: 60%;
+    right: 5%;
+
+}
+.input-box input::placeholder{
+    color:rgb(91, 77, 44);
+    
+}
+.remember-pass{
+    display: flex;
+    margin: -15px,0,15px;
+    position: relative;
+    margin-left: 5px;
+}
+.remember-pass a{
+    position: absolute;
+    right: 0;
+    color: rgb(193, 43, 26);
+    margin-right: 10px;
+    text-decoration: none;
+}
+.btn1 .btn2{
+     width: 100%;
+     height: 45px;
+     margin-top: 10px;
+     border-radius: 20px;
+}
+.account{
+    display: flex;
+    justify-content: center;
+    
+}
+.account a{
+    color: rgb(255, 7, 7);
+    text-decoration: none;
+    
+}
+
+.wrapper2{
+    padding: 40px ;
+}

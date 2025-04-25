@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    cursor:pointer;
+   
+}
+body
+{
+background-color: black;
+width: 100%;
+overflow: hidden;
+margin-bottom: 10%;
+
+}
+header{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    animation: header 1s ease-in-out;
+
+}
+@keyframes header{
+    0%{transform:
+    translateY(-100%);}
+    }
+nav li{
+    display:inline-block ;
+    padding: 10px;
+}
+.main{
+    color: aliceblue;
+}
+.main {
+    padding-left: 100px;
+    margin-top: 100px ;
+    
+    
+   }
+.content{
+    animation: content 2s ease-in-out;
+}
+@keyframes content {0%{
+    opacity: 0;
+    transform: translateX(-50%);
+}
+    
+}
+
+
+.content h1{
+    font-size: 100px;
+    letter-spacing: 10px;
+}
+.content h2{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+span{
+    color: yellow;
+}
+.content p{
+    padding-bottom: 10px;
+}
+
+button{
+    background-color: black;
+    color: white;
+    padding: 15px 15px;
+    margin: 10px;
+    border-radius: 10px;
+    
+}
+button:hover{
+    background-color: red;
+}
+
+.image{
+     position: absolute;
+     left: 48%;
+     top: 200px;
+     z-index: -1;
+    }
+    
+img{
+        width: 40rem;
+        animation: car 4s ease-in-out;
+        
+}
+@keyframes car {
+    10%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-250%)
+    }
+    
+}
+
+@media screen and (max-width:1200px){
+.content{
+    
+        text-align: center;
+    }
+
+
+    
+.image{
+    display: flex;
+    position: absolute;
+    bottom: -5%;
+    display: flex;
+    justify-content: center;
+   }
+img{
+    width:40rem ;
+}   
+
+
+
+}
+
