@@ -1,0 +1,270 @@
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top, rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(1.jpg),no-repeat;
+    background-size: cover;
+
+    
+
+}
+.navbar{
+  
+
+
+    width: 100vw;
+    height: 120px;
+
+   
+    
+    
+}
+
+.logo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 166, 0);
+    font-size: 35px;
+    padding-left: 2rem;
+    padding-top: 15px; 
+    float: left;
+
+}
+.menu{
+    float: left;
+    /* width: 400px; */
+    /* height: 70px; */
+    /* background-color: aqua; */
+    padding: 15px 0px 50px 50px ;
+    
+
+   
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    font-size: 1.25rem;
+    margin-left: 60px;
+    margin-top: 2rem ;
+}
+ul li a{
+    color: aliceblue;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.5s ease-in-out;
+    text-decoration: none;
+}
+ul li a:hover,:focus{
+    color: orange;
+    outline: none;
+}
+.search{
+    float: right;
+    padding-top: 2rem;
+    padding-right: 3rem;
+}
+input{
+    box-sizing: 100px;
+    padding: 10px;
+    width: 200px;
+    background-color: transparent;
+    border: 1px solid orange;
+    outline: none;
+    color: aliceblue;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 
+    5px;
+    margin-top: 5px;
+}
+.btn1{
+    padding: 10px;
+    box-sizing: 100px;
+    margin-left: -10px;
+    background-color: orange;
+    border: 1px solid orange;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 
+    5px; 
+
+}
+.content{
+    color: aliceblue;
+    
+    display:inline-block;
+    height: 500px;
+    width: 50%;
+
+    position: relative;
+    left: 100px;
+    top: 100px;
+    font-size: large;
+
+    
+
+}
+h3{
+    letter-spacing: 5px;
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 3px;
+    margin: 10px;
+}
+h3:nth-child(2){
+    color: orange;
+
+}
+p{
+font-size: 1em;
+letter-spacing: 2px;
+text-wrap: nowrap;
+padding-left: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-top: 10px;
+
+
+
+}
+
+.btn2{
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+
+
+    background-color: orange;
+    border: 1px solid orange;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 10px;
+    font-size: large;
+
+
+}
+.joinbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.loginbox{
+        height: 500px;
+        width: 350px;
+        background-color: black;
+
+        position: absolute;
+        right: 5rem;
+        top: 13rem;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+
+}
+.loginhere{
+
+    width: 100%;
+    height: 10%;
+    background-color: aliceblue;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* margin: 40px 0px 0px 50px; */
+    color: orange;
+
+    
+    
+}
+#pla{
+
+    width: 70%;
+   
+    color: aliceblue;
+    border: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid orange;
+    margin: 50px 0px 0px 30px;
+    background-color: transparent;
+}
+#pla::placeholder{
+    color: rgb(255, 255, 255);
+
+}
+#pass{
+    width: 70%;
+   
+    color: aliceblue;
+    border: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid orange;
+    margin: 50px 0px 0px 30px;
+    background-color: transparent;
+}
+#pass::placeholder{
+    color: rgb(255, 255, 255);
+
+}
+.btn10{
+        width: 70%;
+        height: 10%;
+        background-color: orange;
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+
+        margin: 50px 0px 0px 50px;
+        color: #000000;
+        border-color: transparent;
+        
+
+
+    
+}
+h6{
+    margin-top: 20px;
+    text-align: center;
+    font-size:large;
+}
+h5{
+    margin-top: 5px;
+    text-align: center;
+    
+    
+}
+h4{
+    text-align: center;
+    margin-top: 15px; 
+}
+.items{
+    margin-top: 8px;
+
+
+    height: 50px;
+    width: 100%;
+}
+.brands{
+  
+   width: 100%;
+   height: 50px;
+   display: flex;
+   justify-content: space-around;
+   font-size: xx-large;
+}
+
+
+
